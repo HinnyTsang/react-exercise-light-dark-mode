@@ -1,0 +1,104 @@
+.navbar--container{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+}
+
+.navbar--container-dark{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+    background-color: #21222A;
+}
+
+
+.navbar--logo{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbar--logo > img{
+    width: 40px;
+}
+
+.navbar--logo > h1{
+    color: #61DAFB;
+    font-size: 25px;
+    padding-left: 10px;
+}
+
+.navbar--mode-toggler {
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.navbar--mode-toggler--dark {
+    color: #918E9B;
+}
+
+.navbar--container-dark .navbar--mode-toggler--dark {
+    color: #f5f5f5;
+}
+
+.navbar--container-dark .navbar--mode-toggler--light {
+    color: #918E9B;
+}
+
+
+
+.navbar--mode-toggler--slider {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+    margin: auto 10px;
+    width: 25px;
+    height: 15px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.navbar--mode-toggler--slider--circle {
+    margin: 1px 1px;
+    width: 13px;
+    height: 13px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.navbar--mode-toggler--slider:hover {
+    cursor: pointer;
+}
+
+.navbar--container-dark .navbar--mode-toggler--slider {
+    border-color: white;
+    background-color: #F5F5F5;
+    justify-content: flex-end;
+}
+
+.navbar--container-dark .navbar--mode-toggler--slider--circle {
+    background-color: #21222A;
+}
